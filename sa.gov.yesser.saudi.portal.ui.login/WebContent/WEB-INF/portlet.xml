@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<portlet-app xmlns="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" version="2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd http://java.sun.com/xml/ns/portlet/portlet-app_2_0.xsd" id="sa.gov.yesser.saudi.portal.ui.login.LoginPortlet.aacd5d5736">
+	<portlet>
+		<portlet-name>sa.gov.yesser.saudi.portal.ui.login</portlet-name>
+		<display-name>sa.gov.yesser.saudi.portal.ui.login</display-name>
+		<display-name xml:lang="en">sa.gov.yesser.saudi.portal.ui.login</display-name>
+		<display-name xml:lang="ar">sa.gov.yesser.saudi.portal.ui.login</display-name>
+		<portlet-class>sa.gov.yesser.saudi.portal.ui.login.LoginPortlet</portlet-class>
+		<init-param>
+			<name>wps.markup</name>
+			<value>html</value>
+		</init-param>
+		<expiration-cache>0</expiration-cache>
+		<supports>
+			<mime-type>text/html</mime-type>
+			<portlet-mode>view</portlet-mode>
+		</supports>
+		<supported-locale>en</supported-locale>
+		<supported-locale>ar</supported-locale>
+		<resource-bundle>sa.gov.yesser.saudi.portal.ui.login.nl.LoginPortletResource</resource-bundle>
+		<portlet-info>
+			<title>sa.gov.yesser.saudi.portal.ui.login</title>
+			<short-title>sa.gov.yesser.saudi.portal.ui.login</short-title>
+			<keywords>sa.gov.yesser.saudi.portal.ui.login</keywords>
+		</portlet-info>
+	</portlet>
+	<default-namespace>http://sa.gov.yesser.saudi.portal.ui.login/</default-namespace>
+</portlet-app>
