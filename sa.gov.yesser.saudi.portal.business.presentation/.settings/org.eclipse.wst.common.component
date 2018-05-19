@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="sa.gov.yesser.saudi.portal.business.presentation">
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/.apt_generated"/>
+        <dependent-module archiveName="sa.gov.yesser.saudi.portal.business.common-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sa.gov.yesser.saudi.portal.business.common/sa.gov.yesser.saudi.portal.business.common">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sa.gov.yesser.saudi.portal.business.service-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sa.gov.yesser.saudi.portal.business.service/sa.gov.yesser.saudi.portal.business.service">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sa.gov.yesser.saudi.portal.business.persistence-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sa.gov.yesser.saudi.portal.business.persistence/sa.gov.yesser.saudi.portal.business.persistence">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sa.gov.yesser.saudi.portal.business.be.integration-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sa.gov.yesser.saudi.portal.business.be.integration/sa.gov.yesser.saudi.portal.business.be.integration">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="sa.gov.yesser.saudi.portal.business.puma-0.0.1-SNAPSHOT.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/sa.gov.yesser.saudi.portal.business.puma/sa.gov.yesser.saudi.portal.business.puma">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="sa.gov.yesser.saudi.portal.business.presentation"/>
+        <property name="java-output-path" value="/sa.gov.yesser.saudi.portal.business.presentation/target/classes"/>
+    </wb-module>
+</project-modules>

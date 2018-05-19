@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><portlet-properties>
+    <portlet name="sa.gov.yesser.saudi.portal.ui.login">
+        <property>
+            <name>DEFAULT_PAGE</name>
+            <value>/_sagovyessersaudiportaluilogin/html/LoginPortletView.html</value>
+        </property>
+    </portlet>
+</portlet-properties>
