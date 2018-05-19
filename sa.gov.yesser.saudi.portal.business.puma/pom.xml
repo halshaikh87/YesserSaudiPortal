@@ -20,13 +20,6 @@
 		  <artifactId>sa.gov.yesser.saudi.portal.business.common</artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
   	</dependency>
-  	<dependency>
-    		<artifactId>wp.user.api.jar</artifactId>
-   	 		<groupId>ibm.wp.user.api</groupId>
-    		<version>8.0</version>
-    		<scope>system</scope>
-    		<systemPath>E:\SBM\Projects\Yesser\NewWorkSpace\sa.gov.yesser.saudi.portal.common.lib\IBM\wp.user.api.jar</systemPath>
-    	</dependency>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
